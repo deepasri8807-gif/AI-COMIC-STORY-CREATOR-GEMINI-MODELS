@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ComicCraft - Comic Story AI Creator</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <div class="spider-icon">🕷️</div>
+
+        <div>
+            <h1>COMIC<span>CRAFT</span></h1>
+            <p>COMIC STORY AI CREATOR</p>
+        </div>
+
+    </header>
+
+
+    <!-- MAIN -->
+
+    <main class="container">
+
+        <!-- INPUT SECTION -->
+
+        <section class="creator">
+
+            <h2>🕸️ Create Your Comic Story</h2>
+
+            <p class="subtitle">
+                Enter your idea and create your own comic story
+            </p>
+
+
+            <label for="title">
+                Comic Title
+            </label>
+
+            <input
+                type="text"
+                id="title"
+                placeholder="Example: Spider-Man Adventure"
+            >
+
+
+            <label for="character">
+                Main Character
+            </label>
+
+            <input
+                type="text"
+                id="character"
+                placeholder="Example: Spider-Man"
+            >
+
+
+            <label for="idea">
+                Story Idea
+            </label>
+
+            <textarea
+                id="idea"
+                placeholder="Example: A superhero saves the city from a dangerous villain"
+            ></textarea>
+
+
+            <button id="generateBtn">
+                🕷️ Generate Comic
+            </button>
+
+        </section>
+
+
+        <!-- OUTPUT SECTION -->
+
+        <section id="storySection" class="story-section">
+
+            <div class="story-heading">
+
+                <span>🕸️</span>
+
+                <h2 id="storyTitle">
+                    Your Comic Story
+                </h2>
+
+                <span>🕸️</span>
+
+            </div>
+
+
+            <div id="storyContent"></div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            🕷️ © 2026 ComicCraft | Comic Story AI Creator 🕷️
+        </p>
+
+    </footer>
+
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
